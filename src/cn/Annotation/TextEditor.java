@@ -15,6 +15,7 @@ public class TextEditor {
     }
 
     public TextEditor() {
+        System.out.println("==== TextEditor constructor." );
     }
 
     //    @Autowired
