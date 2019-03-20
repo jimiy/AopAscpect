@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Definition for textEditor bean -->
+    <!--<bean id="textEditor" class="cn.di.TextEditor">-->
+        <!--<constructor-arg ref="spellChecker"/>-->
+
+        <!--&lt;!&ndash;-->
+          <!--constructor-agr  ref就是  依赖的id号-->
+        <!--&ndash;&gt;-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; Definition for spellChecker bean &ndash;&gt;-->
+    <!--<bean id="spellChecker" class="cn.di.SpellChecker">-->
+    <!--</bean>-->
+
+
+    <!-- 此种内部bean就没有 构造函数传参-->
+    <!--<bean id="textEditor" class="cn.di.TextEditor">-->
+        <!--<property name="spellChecker">-->
+            <!--<bean id="spellChecker" class="cn.di.SpellChecker"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+</beans>
